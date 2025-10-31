@@ -9,6 +9,7 @@ app.use(cors({
         'https://mail.missiveapp.com',
         'https://integrations.missiveapp.com',
         /\.missiveapp\.com$/,
+        /\.netlify\.app$/,
         'http://localhost:3000',
     ],
     credentials: true
